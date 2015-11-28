@@ -18,7 +18,6 @@ open git:
 init demo app:
 > cd websocket-progress-demo
 > npm install
-> bower install
 
 start server:
 > npm start
