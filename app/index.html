@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WebSocket App</title>
+  <link rel="stylesheet" href="stat/style/main.css">
+</head>
+<body>
+<div class="container">
+  <h1>Progress by WebSocket</h1>
+  <br>
+  <br>
+  <span class="title">Let's go!</span>
+  <div id="progress" class="progress hide">
+    <div class="bar"></div>
+  </div>
+  <br>
+  <div class="btn" id="connect">Connect</div>
+  <div class="btn hide" id="start">Start</div>
+  <div class="btn hide" id="disconnect">Disconnect</div>
+</div>
+  <script src="com/jquery/dist/jquery.min.js"></script>
+  <script src="com/socket.io-client/socket.io.js"></script>
+  <script src="stat/main.js"></script>
+</body>
+</html>

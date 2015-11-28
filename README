@@ -1,0 +1,24 @@
+
+Progress bar demo by WebSocket
+===================================
+
+download and setup nodejs & git:
+https://nodejs.org/
+http://git-scm.com/download/
+
+open git:
+> cd {tmp directory}
+> git clone --recursive https://github.com/npm/npm.git
+> cd npm
+> node cli.js install npm -gf
+> npm config set registry http://registry.npm.taobao.org/
+
+> set NODE_ENV=development
+
+init demo app:
+> cd websocket-progress-demo
+> npm install
+> bower install
+
+start server:
+> npm start

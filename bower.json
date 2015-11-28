@@ -1,0 +1,24 @@
+{
+  "name": "websocket-progress-demo",
+  "description": "This app is for web server & frontend test",
+  "main": "index.js",
+  "authors": [
+    "cxchen (Brandon)"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "~1.3.7",
+    "jquery": "~2.1.4"
+  }
+}
